@@ -6,7 +6,7 @@
   --primary-color: #025951; /* Dark green */
   --secondary-color: #a9d8ae; /* Medium green */
   --background-color: #fffdec; /* Light yellow */
-  --background-color-rgba: rgba(255, 253, 236, 0.5);
+  /* --background-color-rgba: rgba(255, 253, 236, 0.5); */
   --text-color: #333333;
   --primary-font: "Quicksand", sans-serif;
   --secondary-font: "Chewy", cursive;
@@ -54,11 +54,6 @@ h3,
 }
 
 #header h1 {
-  background-color: var(--background-color-rgba);
-  /* border: 2px solid black; */
-}
-
-#header h1 {
   font-family: var(--secondary-font);
   margin-bottom: 50px;
 }
@@ -76,7 +71,7 @@ h3,
 }
 /* main */
 
-/* media queries */
+/* media queries for screens below 576px*/
 @media screen and (max-width: 576px) {
   #header {
     min-height: 350px;
