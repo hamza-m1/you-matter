@@ -6,6 +6,7 @@
   --primary-color: #025951; /* Dark green */
   --secondary-color: #a9d8ae; /* Medium green */
   --background-color: #fffdec; /* Light yellow */
+  --background-color-rgba: rgba(255, 253, 236, 0.5);
   --text-color: #333333;
   --primary-font: "Quicksand", sans-serif;
   --secondary-font: "Chewy", cursive;
@@ -19,11 +20,65 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+.lead {
   font-family: var(--secondary-font);
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Navbar */
 #navbar {
   background-color: var(--primary-color);
+}
+
+/* Header: vertically center the row content */
+#header {
+  display: flex;
+  align-items: center;
+}
+
+/* header */
+#header {
+  background-image: url("../images/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--background-color);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+#header h1 {
+  background-color: var(--background-color-rgba);
+  /* border: 2px solid black; */
+}
+
+#header h1 {
+  font-family: var(--secondary-font);
+  margin-bottom: 50px;
+}
+
+#header .btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 15px;
+}
+
+#header .btn:hover {
+  background-color: var(--secondary-color);
+  color: black;
+}
+/* main */
+
+/* media queries */
+@media screen and (max-width: 576px) {
+  #header {
+    min-height: 350px;
+  }
 }
