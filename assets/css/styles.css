@@ -22,3 +22,8 @@ h2,
 h3 {
   font-family: var(--secondary-font);
 }
+
+/* Navbar */
+#navbar {
+  background-color: var(--primary-color);
+}
