@@ -27,9 +27,13 @@ h3,
 }
 
 .section {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   margin-bottom: 2rem;
-  padding-top: 56px;
+  padding-top: 70px;
+}
+
+h2 {
+  padding-bottom: 10px;
 }
 
 /* Navbar */
@@ -67,10 +71,10 @@ h3,
 }
 
 /* About us */
-#about-us h2 {
+/* #about-us h2 {
   margin-bottom: 30px;
   margin-top: 10px;
-}
+} */
 
 /* Challenges */
 #challenges .card-title {
@@ -91,6 +95,11 @@ h3,
 
 #challenges li {
   margin-bottom: 10px;
+}
+
+#challenges img {
+  height: 300px;
+  object-fit: cover;
 }
 
 /* Footer */
