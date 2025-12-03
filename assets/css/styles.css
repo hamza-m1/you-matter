@@ -54,6 +54,10 @@ h2 {
   background-color: var(--primary-color);
 }
 
+#navbar .navbar-brand {
+  font-size: 1.8rem;
+}
+
 #navBtn {
   background-color: white;
   color: black;
