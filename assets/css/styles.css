@@ -71,7 +71,7 @@ h3,
 }
 
 /* Footer */
-#footer {
+footer {
   background-color: var(--primary-color);
   color: white;
 }
