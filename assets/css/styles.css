@@ -35,12 +35,6 @@ h3,
   background-color: var(--primary-color);
 }
 
-/* Header: vertically center the row content */
-#header {
-  display: flex;
-  align-items: center;
-}
-
 /* header */
 #header {
   background-image: url("../images/hero-image.png");
@@ -69,7 +63,12 @@ h3,
   background-color: var(--secondary-color);
   color: black;
 }
-/* main */
+
+/* About us */
+#about-us h2 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
 
 /* media queries for screens below 576px*/
 @media screen and (max-width: 576px) {
