@@ -70,6 +70,27 @@ h3,
   margin-top: 10px;
 }
 
+/* Challenges */
+#challenges .card-title {
+  font-family: var(--secondary-font);
+  margin-bottom: 15px;
+}
+
+#challenges .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+}
+#challenges .card:hover {
+  transform: translateY(-8px);
+  transition: transform 0.3s;
+}
+
+#challenges li {
+  margin-bottom: 10px;
+}
+
 /* Footer */
 #footer {
   background-color: var(--primary-color);
@@ -78,7 +99,22 @@ h3,
 
 /* media queries for screens below 576px*/
 @media screen and (max-width: 576px) {
+  /* Header */
   #header {
     min-height: 350px;
+  }
+}
+
+/* media queries for screens above 768px*/
+@media screen and (min-width: 768px) {
+  /* Challenges */
+  #challenges #stress .card-body,
+  #challenges #depression .card-body {
+    min-height: 495px;
+  }
+
+  #challenges #anxiety .card-body,
+  #challenges #burnout .card-body {
+    min-height: 447px;
   }
 }
