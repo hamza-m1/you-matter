@@ -102,6 +102,10 @@ h2 {
   object-fit: cover;
 }
 
+#challenges .card-body {
+  background-color: var(--secondary-color);
+}
+
 /* affirmations */
 .mycarousel {
   background-color: var(--primary-color);
