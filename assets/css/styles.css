@@ -26,6 +26,11 @@ h3,
   font-family: var(--secondary-font);
 }
 
+.card-title {
+  font-family: var(--secondary-font);
+  margin-bottom: 15px;
+}
+
 .section {
   /* margin-top: 2rem; */
   margin-bottom: 2rem;
@@ -77,11 +82,6 @@ h2 {
 } */
 
 /* Challenges */
-#challenges .card-title {
-  font-family: var(--secondary-font);
-  margin-bottom: 15px;
-}
-
 #challenges .card {
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
