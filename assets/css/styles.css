@@ -16,6 +16,7 @@
 
 body {
   font-family: var(--primary-font);
+  /* padding-top: 56px; */
 }
 
 h1,
@@ -28,6 +29,7 @@ h3,
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-top: 56px;
 }
 
 /* Navbar */
