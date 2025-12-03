@@ -102,6 +102,22 @@ h2 {
   object-fit: cover;
 }
 
+/* affirmations */
+.mycarousel {
+  background-color: var(--primary-color);
+}
+
+.carousel-inner {
+  padding: 20px;
+}
+
+.carousel-item {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
 /* Footer */
 #footer {
   background-color: var(--primary-color);
