@@ -19,10 +19,15 @@ This is a mental health awareness site offering explanations of common condition
 ### Wireframes
 
 ![mobile hero section wireframe](/assets/readme-images/mobile-hero-wireframe.png)
+
 ![mobile challenges section wireframe](/assets/readme-images/mobile-challenges-wireframe.png)
+
 ![mobile resources wireframe](/assets/readme-images/mobile-resources-wireframe.png)
+
 ![mobile contact us wireframe](/assets/readme-images/mobile-contact-us-wireframe.png)
+
 ![desktop top wireframe](/assets/readme-images/desktop-wireframe1.png)
+
 ![desktop bottom wireframe](/assets/readme-images/desktop-wireframe2.png)
 
 ### Typography
@@ -56,7 +61,10 @@ This project uses the following core technologies:
 - **HTML:** Semantic, accessible markup for page structure and content.
 - **CSS:** Custom styles and CSS variables for theming; responsive layout and calm visual design.
 - **Bootstrap:** Bootstrap 5 components and utilities (navbar, cards, accordion, form, carousel) for responsive, accessible UI.
-- **GitHub:** Git-based source control and repository hosting. Used for deployment via GitHub Pages.
+- **Font Awesome:** Iconography via Font Awesome for clear, lightweight visual cues
+- **Google Fonts:** Web fonts (for example, Chewy and Quicksand) are loaded from Google Fonts for friendly, readable typography.
+- **Git & GitHub:** Source control with Git and remote repository hosting on GitHub; GitHub also used for site deployment.
+- **GitHub Copilot:** Assisted authoring and problem solving using GitHub Copilot — used here for generating illustrative images and for helping with quick bug fixes and implementation suggestions.
 
 ## Testing
 
@@ -108,7 +116,7 @@ Colour contrast between light yellow background and black text
 
 ![Colour contrast between light yellow background and black text](/assets/readme-images/colour-contrast3.png)
 
-### Manual Testing user stories
+## Manual Testing user stories
 
 - As a site visitor, I want the website to be responsive and look good on all screen sizes (desktop, tablet, mobile) so that I can have a smooth and comfortable browsing experience.
 
@@ -148,7 +156,7 @@ Colour contrast between light yellow background and black text
 
 ![User story 9 test](/assets/readme-images/user-story-test9.png)
 
-### Bugs
+## Bugs
 
 **Card heights**
 
@@ -166,3 +174,25 @@ Colour contrast between light yellow background and black text
 ```
 data-bs-parent="#tipsAccordion">
 ```
+
+## Deployment
+
+**Creating a repository on GitHub**
+
+1. Go to GitHub.com and sign in to your account.
+2. In the upper-right corner of any page, open the + menu and select New repository.
+3. Enter a repository name and choose Public or Private.
+4. (Optional) Check Add a README file to create a longer project description.
+5. Click the green Create repository button.
+
+**Deploying on GitHub Pages**
+
+1. Open the repository on GitHub and go to Settings → Pages.
+2. Under Source, choose Deploy from a branch.
+3. Set Branch to main and Folder to / (root).
+4. Click Save.
+5. Wait a few minutes — the live site URL will appear at the top of the Pages settings.
+
+## Credits
+
+- GitHub Copilot for image generation
