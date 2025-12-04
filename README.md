@@ -1,6 +1,6 @@
 # You Matter
 
-This is a mental health awareness site offering clear explanations of common conditions, quick practical tips, and links to trusted resources. The user base is newcomers to mental health topics, people feeling stressed, and users seeking reputable external help.
+This is a mental health awareness site offering explanations of common conditions, quick practical tips, and links to trusted resources. The user base is newcomers to mental health topics, people feeling stressed, and users seeking reputable external help.
 
 ## Design and Planning
 
@@ -66,6 +66,8 @@ This project uses the following core technologies:
 
 ### Responsiveness
 
+![Responsiveness test across multiple screen sizes](/assets/readme-images/site-responsiveness.png)
+
 The challenges section on desktops:
 
 ![Responsiveness test for the challenges section on desktop](/assets/readme-images/responsivness-challenges-desktop.png)
@@ -107,3 +109,22 @@ Colour contrast between light yellow background and black text
 ![Colour contrast between light yellow background and black text](/assets/readme-images/colour-contrast3.png)
 
 ### Manual Testing user stories
+
+### Bugs
+
+**Card heights**
+
+- The card heights were not uniform across screen sizes. I fixed this by using media queries to change the height based on screen width.
+
+**Cards not centered on mobile screens**
+
+- fixed by adding auto margin to the left anf right of the cards
+
+**Accordion items did not close when others were opened**
+
+- When adding extra accordion items on top of the 3 copied from bootstrap examples, they did not link with the other items and so didn't auto close.
+- I fixed this by adding the code below to every accordion item.
+
+```
+data-bs-parent="#tipsAccordion">
+```
