@@ -13,10 +13,8 @@
 }
 
 /* Global styles */
-
 body {
   font-family: var(--primary-font);
-  /* padding-top: 56px; */
 }
 
 h1,
@@ -32,7 +30,6 @@ h3,
 }
 
 .section {
-  /* margin-top: 2rem; */
   margin-bottom: 2rem;
   padding-top: 80px;
 }
@@ -57,7 +54,6 @@ h2 {
 
 #navbar .navbar-brand {
   font-size: 1.8rem;
-  /* color: var(--light-color); */
 }
 
 #navbar .navbar-brand:hover {
