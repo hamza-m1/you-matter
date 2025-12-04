@@ -1,818 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A mental health awareness site offering information on common conditions, how to recognize signs, stress-management techniques, and resources for support."
-    />
-    <title>You Matter</title>
 
-    <!-- Bootstrap 5 css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A mental health awareness site offering information on common conditions, how to recognize signs, stress-management techniques, and resources for support.">
+  <title>You Matter</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body class="d-flex flex-column min-vh-100">
-    <!-- Navigation -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg fixed-top"
-      data-bs-theme="dark"
-      role="navigation"
-      aria-label="Main navigation"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#header">You Matter</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end align-items-center"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav align-items-center gap-2">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about-us"
-                >About us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#challenges">Challenges</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tips">Tips</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#resources">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#affirmations">Affirmations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"
-                ><button id="navBtn" aria-label="Open contact section">
-                  Contact us
-                </button></a
-              >
-            </li>
-          </ul>
-        </div>
+  <!-- Bootstrap 5 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#header">You Matter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+        <ul class="navbar-nav align-items-center gap-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#challenges">Challenges</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tips">Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#affirmations">Affirmations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#contact" id="navBtn" aria-label="Open contact section">Contact us</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <header id="header" class="">
-      <div class="container section">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <div>
-              <h1 class="display-3">Let's talk. You matter</h1>
-              <a href="#contact"
-                ><button
-                  type="button"
-                  class="btn btn-outline-primary btn-lg"
-                  aria-label="Open contact section"
-                >
-                  contact us
-                </button></a
-              >
-            </div>
+  <!-- Header -->
+  <header id="header" class="">
+    <div class="container section">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div>
+            <h1 class="display-3">Let's talk. You matter</h1>
+            <a href="#contact" class="btn btn-outline-primary btn-lg" aria-label="Open contact section">Contact us</a>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main id="main">
-      <!-- About us section -->
-      <section id="about-us" class="container section">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-8">
-            <h2 class="text-center">About Us</h2>
-            <p>
-              Welcome to You Matter, your trusted resource for mental health
-              awareness and support. Our mission is to provide accurate
-              information, practical advice, and a supportive community for
-              individuals seeking to understand and manage their mental
-              well-being.
-            </p>
-            <p>
-              At You Matter, we believe that mental health is just as important
-              as physical health. We are dedicated to breaking the stigma
-              surrounding mental health challenges and promoting open
-              conversations about emotional well-being.
-            </p>
-          </div>
+  <main id="main">
+    <!-- About us section -->
+    <section id="about-us" class="container section">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <h2 class="text-center">About Us</h2>
+          <p>
+            Welcome to You Matter, your trusted resource for mental health
+            awareness and support. Our mission is to provide accurate
+            information, practical advice, and a supportive community for
+            individuals seeking to understand and manage their mental
+            well-being.
+          </p>
+          <p>
+            At You Matter, we believe that mental health is just as important
+            as physical health. We are dedicated to breaking the stigma
+            surrounding mental health challenges and promoting open
+            conversations about emotional well-being.
+          </p>
         </div>
-      </section>
-      <!-- Challenges section -->
-      <section id="challenges" class="container section">
-        <div class="row justify-content-center g-4">
-          <div class="col-12 text-center">
-            <h2>Common Mental Health Challenges</h2>
-          </div>
-          <div class="col-12 col-md-6 col-xxl-3">
-            <div id="stress" class="card" style="max-width: 25rem">
-              <img
-                src="assets/images/ch-1.png"
-                class="card-img-top"
-                alt="Illustration representing stress"
-              />
-              <div class="card-body">
-                <h3 class="card-title text-center">Stress</h3>
-                <ul>
-                  <li>
-                    <p class="card-text">
-                      <strong>What is it? </strong>Stress is the body’s natural
-                      response to pressure or challenging situations. Short-term
-                      stress can be motivating, but ongoing stress can harm
-                      mental and physical health.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Common Causes: </strong>Work demands, financial
-                      worries, relationship difficulties, major life changes, or
-                      health concerns.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Signs: </strong>Irritability, headaches, muscle
-                      tension, difficulty sleeping, fatigue, and feeling
-                      overwhelmed.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xxl-3">
-            <div id="depression" class="card" style="max-width: 25rem">
-              <img
-                src="assets/images/ch-3.png"
-                class="card-img-top"
-                alt="Illustration representing depression"
-              />
-              <div class="card-body">
-                <h3 class="card-title text-center">Depression</h3>
-                <ul>
-                  <li>
-                    <p class="card-text">
-                      <strong>What is it? </strong>Depression is a mood disorder
-                      that causes persistent sadness and loss of interest,
-                      affecting how you think, feel, and act.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Common Causes: </strong>Trauma, stressful life
-                      events, genetics, chemical changes in the brain, or
-                      prolonged illness.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Signs: </strong>Low energy, hopelessness, changes
-                      in sleep or appetite, difficulty concentrating, withdrawal
-                      from activities, and feelings of worthlessness.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xxl-3">
-            <div id="anxiety" class="card" style="max-width: 25rem">
-              <img
-                src="assets/images/ch-2.png"
-                class="card-img-top"
-                alt="Illustration representing anxiety"
-              />
-              <div class="card-body">
-                <h3 class="card-title text-center">Anxiety</h3>
-                <ul>
-                  <li>
-                    <p class="card-text">
-                      <strong>What is it? </strong>Anxiety is more than everyday
-                      worry — it’s persistent fear or unease that interferes
-                      with daily life.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Common Causes: </strong>Ongoing stress, trauma,
-                      genetics, health conditions, or major life transitions.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Signs: </strong>Restlessness, racing thoughts,
-                      rapid heartbeat, sweating, difficulty sleeping, and
-                      avoiding situations that trigger worry.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xxl-3">
-            <div id="burnout" class="card" style="max-width: 25rem">
-              <img
-                src="assets/images/ch-4.png"
-                class="card-img-top"
-                alt="Illustration representing burnout"
-              />
-              <div class="card-body">
-                <h3 class="card-title text-center">Burnout</h3>
-                <ul>
-                  <li>
-                    <p class="card-text">
-                      <strong>What is it? </strong>Burnout is emotional,
-                      physical, and mental exhaustion caused by prolonged
-                      stress, often linked to work or caregiving.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Common Causes: </strong>Heavy workloads, lack of
-                      rest, feeling undervalued, poor work-life balance, or
-                      constant pressure.
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <strong>Signs: </strong>Fatigue, irritability, reduced
-                      motivation, difficulty focusing, detachment from
-                      responsibilities, and feeling drained.
-                    </p>
-                  </li>
-                </ul>
-              </div>
+      </div>
+    </section>
+    <!-- Challenges section -->
+    <section id="challenges" class="container section">
+      <div class="row justify-content-center g-4">
+        <div class="col-12 text-center">
+          <h2>Common Mental Health Challenges</h2>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-3">
+          <div id="stress" class="card" style="max-width: 25rem">
+            <img src="assets/images/ch-1.png" class="card-img-top" alt="Illustration representing stress">
+            <div class="card-body">
+              <h3 class="card-title text-center">Stress</h3>
+              <ul>
+                <li>
+                  <p class="card-text">
+                    <strong>What is it? </strong>Stress is the body’s natural
+                    response to pressure or challenging situations. Short-term
+                    stress can be motivating, but ongoing stress can harm
+                    mental and physical health.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Common Causes: </strong>Work demands, financial
+                    worries, relationship difficulties, major life changes, or
+                    health concerns.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Signs: </strong>Irritability, headaches, muscle
+                    tension, difficulty sleeping, fatigue, and feeling
+                    overwhelmed.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Tips section -->
-      <section id="tips" class="container section">
-        <div class="row justify-content-center g-4">
-          <div class="col-12 text-center">
-            <h2>Practical tips</h2>
-          </div>
-          <div class="col-12 col-lg-6">
-            <div class="accordion" id="tipsAccordion">
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Keep a routine
-                  </button>
-                </h3>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Regular sleep, meals, and daily activities provide
-                      structure and stability. A consistent routine helps
-                      regulate your body’s natural rhythms, reduces uncertainty,
-                      and makes it easier to manage stress.
-                    </p>
-                    <p>
-                      Even small habits, like waking up at the same time or
-                      planning a daily walk, can create a sense of control and
-                      calm.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Stay active
-                  </button>
-                </h3>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Gentle exercise like walking, stretching, or yoga boosts
-                      mood and energy. Physical activity releases endorphins,
-                      which improve emotional well-being, and helps reduce
-                      tension in the body.
-                    </p>
-                    <p>
-                      You don’t need intense workouts — even short bursts of
-                      movement throughout the day can make a difference.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Connect with others
-                  </button>
-                </h3>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Talking to friends, family, or support groups helps reduce
-                      isolation and builds resilience. Sharing your thoughts and
-                      feelings can lighten emotional burdens, while listening to
-                      others fosters connection.
-                    </p>
-                    <p>
-                      Even a quick chat or message can remind you that you’re
-                      not alone.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
-                  >
-                    Spend time in nature
-                  </button>
-                </h3>
-                <div
-                  id="collapseFour"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Being outdoors, even briefly, can lower stress and improve
-                      well-being. Natural environments encourage relaxation,
-                      reduce anxiety, and restore focus.
-                    </p>
-                    <p>
-                      Whether it’s a park, garden, or simply opening a window to
-                      feel fresh air, connecting with nature can refresh your
-                      mind.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFive"
-                    aria-expanded="false"
-                    aria-controls="collapseFive"
-                  >
-                    Limit unhealthy habits
-                  </button>
-                </h3>
-                <div
-                  id="collapseFive"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Reducing caffeine, alcohol, or excessive screen time can
-                      ease anxiety and improve sleep. These habits often disrupt
-                      rest and increase stress levels.
-                    </p>
-                    <p>
-                      Setting boundaries, like screen-free evenings or limiting
-                      stimulants, helps your body and mind recharge more
-                      effectively.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseSix"
-                    aria-expanded="false"
-                    aria-controls="collapseSix"
-                  >
-                    Express yourself
-                  </button>
-                </h3>
-                <div
-                  id="collapseSix"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Journaling, drawing, or talking about your feelings helps
-                      release tension and clarify emotions. Creative expression
-                      provides an outlet for thoughts that may feel
-                      overwhelming.
-                    </p>
-                    <p>
-                      Writing down worries or sketching how you feel can make
-                      emotions easier to process.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseSeven"
-                    aria-expanded="false"
-                    aria-controls="collapseSeven"
-                  >
-                    Take breaks
-                  </button>
-                </h3>
-                <div
-                  id="collapseSeven"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Short pauses during the day prevent burnout and help you
-                      reset mentally. Breaks allow your mind to rest, improve
-                      focus, and reduce fatigue.
-                    </p>
-                    <p>
-                      Even five minutes of stretching, breathing, or stepping
-                      away from a task can restore energy and perspective.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseEight"
-                    aria-expanded="false"
-                    aria-controls="collapseEight"
-                  >
-                    Reach out for help
-                  </button>
-                </h3>
-                <div
-                  id="collapseEight"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#tipsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      If challenges feel overwhelming, speaking to a
-                      professional can provide guidance and support. Therapists,
-                      doctors, or helplines can offer tools and reassurance
-                      tailored to your needs.
-                    </p>
-                    <p>
-                      Asking for help is a sign of strength, and support is
-                      always available.
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div class="col-12 col-md-6 col-xxl-3">
+          <div id="depression" class="card" style="max-width: 25rem">
+            <img src="assets/images/ch-3.png" class="card-img-top" alt="Illustration representing depression">
+            <div class="card-body">
+              <h3 class="card-title text-center">Depression</h3>
+              <ul>
+                <li>
+                  <p class="card-text">
+                    <strong>What is it? </strong>Depression is a mood disorder
+                    that causes persistent sadness and loss of interest,
+                    affecting how you think, feel, and act.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Common Causes: </strong>Trauma, stressful life
+                    events, genetics, chemical changes in the brain, or
+                    prolonged illness.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Signs: </strong>Low energy, hopelessness, changes
+                    in sleep or appetite, difficulty concentrating, withdrawal
+                    from activities, and feelings of worthlessness.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Resources section (cards) -->
-      <section id="resources" class="container section">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Resources</h2>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  <i class="fa-solid fa-hospital me-2" aria-hidden="true"></i
-                  >NHS Mental Health Services
-                </h5>
-                <p class="card-text">
-                  The NHS provides professional mental health care, including
-                  urgent help, talking therapies, and guidance on how to access
-                  local services.
-                </p>
-                <a
-                  href="https://www.nhs.uk/nhs-services/mental-health-services/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-primary mt-auto"
-                  aria-label="Open NHS Mental Health Services (opens in new tab)"
-                  >Visit</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  <i class="fa-solid fa-brain me-2" aria-hidden="true"></i>Mind
-                </h5>
-                <p class="card-text">
-                  Mind is a leading UK charity offering clear information,
-                  helplines, and local support for anyone experiencing mental
-                  health problems.
-                </p>
-                <a
-                  href="https://www.mind.org.uk/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-primary mt-auto"
-                  aria-label="Open Mind (opens in new tab)"
-                  >Visit</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  <i class="fa-solid fa-phone me-2" aria-hidden="true"></i
-                  >Samaritans
-                </h5>
-                <p class="card-text">
-                  Samaritans are available 24/7 to listen and provide
-                  confidential support if you’re feeling overwhelmed or in
-                  crisis. You can call them free on 116 123.
-                </p>
-                <a
-                  href="https://www.samaritans.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-primary mt-auto"
-                  aria-label="Open Samaritans (opens in new tab)"
-                  >Visit</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  <i class="fa-solid fa-users me-2" aria-hidden="true"></i
-                  >Rethink Mental Illness
-                </h5>
-                <p class="card-text">
-                  Rethink offers advice, information, and support for people
-                  severely affected by mental illness, as well as resources for
-                  carers and families.
-                </p>
-                <a
-                  href="https://www.rethink.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-primary mt-auto"
-                  aria-label="Open Rethink Mental Illness (opens in new tab)"
-                  >Visit</a
-                >
-              </div>
+        <div class="col-12 col-md-6 col-xxl-3">
+          <div id="anxiety" class="card" style="max-width: 25rem">
+            <img src="assets/images/ch-2.png" class="card-img-top" alt="Illustration representing anxiety">
+            <div class="card-body">
+              <h3 class="card-title text-center">Anxiety</h3>
+              <ul>
+                <li>
+                  <p class="card-text">
+                    <strong>What is it? </strong>Anxiety is more than everyday
+                    worry — it’s persistent fear or unease that interferes
+                    with daily life.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Common Causes: </strong>Ongoing stress, trauma,
+                    genetics, health conditions, or major life transitions.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Signs: </strong>Restlessness, racing thoughts,
+                    rapid heartbeat, sweating, difficulty sleeping, and
+                    avoiding situations that trigger worry.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Contact us section -->
-      <section id="contact" class="container section">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-8 col-xl-7 col-xxl-6">
-            <h2 class="text-center">Contact us</h2>
-            <form action="success.html#success">
-              <div class="row">
-                <div class="col-12 col-md-6 mb-3">
-                  <label for="contactName" class="form-label">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="contactName"
-                    name="name"
-                    required
-                  />
-                </div>
-                <div class="col-12 col-md-6 mb-3">
-                  <label for="contactEmail" class="form-label">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="contactEmail"
-                    name="email"
-                    required
-                  />
-                </div>
-                <div class="col-12 mb-3">
-                  <label for="contactMessage" class="form-label">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="contactMessage"
-                    name="message"
-                    rows="3"
-                    required
-                  ></textarea>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-      <!-- Affirmations section -->
-      <section id="affirmations" class="container section">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="text-center">Daily Affirmations</h2>
-          </div>
-          <div
-            class="col-12 col-lg-8 col-xl-7 col-xxl-6 text-center mx-auto py-5"
-          >
-            <div
-              id="carouselExampleAutoplaying"
-              class="carousel slide"
-              data-bs-ride="carousel"
-              data-bs-theme="dark"
-              aria-label="Daily affirmations carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item display-6 active">
-                  <p>I am worthy of love, care, and respect.</p>
-                </div>
-                <div class="carousel-item display-6">
-                  <p>My feelings are valid, and I honor them.</p>
-                </div>
-                <div class="carousel-item display-6">
-                  <p>I am stronger than I realize, and I grow every day.</p>
-                </div>
-                <div class="carousel-item">
-                  <p>I deserve peace, joy, and balance in my life.</p>
-                </div>
-                <div class="carousel-item">
-                  <p>I am enough, just as I am.</p>
-                </div>
-                <div class="carousel-item">
-                  <p>Every step I take toward healing is a victory.</p>
-                </div>
-                <div class="carousel-item">
-                  <p>I allow myself to rest and recharge without guilt.</p>
-                </div>
-                <div class="carousel-item">
-                  <p>I am resilient, and challenges help me grow.</p>
-                </div>
-                <div class="carousel-item">
-                  <p>I matter, and my presence makes a difference.</p>
-                </div>
-              </div>
+        <div class="col-12 col-md-6 col-xxl-3">
+          <div id="burnout" class="card" style="max-width: 25rem">
+            <img src="assets/images/ch-4.png" class="card-img-top" alt="Illustration representing burnout">
+            <div class="card-body">
+              <h3 class="card-title text-center">Burnout</h3>
+              <ul>
+                <li>
+                  <p class="card-text">
+                    <strong>What is it? </strong>Burnout is emotional,
+                    physical, and mental exhaustion caused by prolonged
+                    stress, often linked to work or caregiving.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Common Causes: </strong>Heavy workloads, lack of
+                    rest, feeling undervalued, poor work-life balance, or
+                    constant pressure.
+                  </p>
+                </li>
+                <li>
+                  <p class="card-text">
+                    <strong>Signs: </strong>Fatigue, irritability, reduced
+                    motivation, difficulty focusing, detachment from
+                    responsibilities, and feeling drained.
+                  </p>
+                </li>
+              </ul>
             </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer id="footer" class="mt-auto" role="contentinfo" aria-label="Footer">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-12 col-sm-6 pt-3 py-sm-5 text-center text-sm-start justify-content-between"
-          >
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-decoration-none text-reset me-5"
-              aria-label="Instagram"
-            >
-              <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-decoration-none text-reset me-5"
-              aria-label="Facebook"
-            >
-              <i class="fa-brands fa-facebook fa-2x" aria-hidden="true"></i>
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-decoration-none text-reset"
-              aria-label="Twitter"
-            >
-              <i class="fa-brands fa-twitter fa-2x" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 py-3 py-sm-5 text-center text-sm-end">
-            <p class="mb-0">&copy; 2024 You Matter. All rights reserved.</p>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+    <!-- Tips section -->
+    <section id="tips" class="container section">
+      <div class="row justify-content-center g-4">
+        <div class="col-12 text-center">
+          <h2>Practical tips</h2>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="accordion" id="tipsAccordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Keep a routine
+                </button>
+              </h3>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Regular sleep, meals, and daily activities provide
+                    structure and stability. A consistent routine helps
+                    regulate your body’s natural rhythms, reduces uncertainty,
+                    and makes it easier to manage stress.
+                  </p>
+                  <p>
+                    Even small habits, like waking up at the same time or
+                    planning a daily walk, can create a sense of control and
+                    calm.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Stay active
+                </button>
+              </h3>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Gentle exercise like walking, stretching, or yoga boosts
+                    mood and energy. Physical activity releases endorphins,
+                    which improve emotional well-being, and helps reduce
+                    tension in the body.
+                  </p>
+                  <p>
+                    You don’t need intense workouts — even short bursts of
+                    movement throughout the day can make a difference.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-    <!-- Font Awesome Kit -->
-    <script
-      src="https://kit.fontawesome.com/4c4ec3a892.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-    <script>
-      document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-          link.addEventListener("click", function (e) {
-            let section = document.querySelector(e.target.getAttribute("href"));
-            if (section) {
-              e.preventDefault(); // Prevent default anchor click behavior
-              let navbarHeight =
-                document.querySelector(".navbar-toggler").offsetHeight;
-              window.scroll({
-                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                behavior: "smooth",
-              });
-              document
-                .querySelector(".navbar-collapse")
-                .classList.remove("show"); // Collapse navbar
-            }
-          });
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Connect with others
+                </button>
+              </h3>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Talking to friends, family, or support groups helps reduce
+                    isolation and builds resilience. Sharing your thoughts and
+                    feelings can lighten emotional burdens, while listening to
+                    others fosters connection.
+                  </p>
+                  <p>
+                    Even a quick chat or message can remind you that you’re
+                    not alone.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Spend time in nature
+                </button>
+              </h3>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Being outdoors, even briefly, can lower stress and improve
+                    well-being. Natural environments encourage relaxation,
+                    reduce anxiety, and restore focus.
+                  </p>
+                  <p>
+                    Whether it’s a park, garden, or simply opening a window to
+                    feel fresh air, connecting with nature can refresh your
+                    mind.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Limit unhealthy habits
+                </button>
+              </h3>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Reducing caffeine, alcohol, or excessive screen time can
+                    ease anxiety and improve sleep. These habits often disrupt
+                    rest and increase stress levels.
+                  </p>
+                  <p>
+                    Setting boundaries, like screen-free evenings or limiting
+                    stimulants, helps your body and mind recharge more
+                    effectively.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Express yourself
+                </button>
+              </h3>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Journaling, drawing, or talking about your feelings helps
+                    release tension and clarify emotions. Creative expression
+                    provides an outlet for thoughts that may feel
+                    overwhelming.
+                  </p>
+                  <p>
+                    Writing down worries or sketching how you feel can make
+                    emotions easier to process.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Take breaks
+                </button>
+              </h3>
+              <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Short pauses during the day prevent burnout and help you
+                    reset mentally. Breaks allow your mind to rest, improve
+                    focus, and reduce fatigue.
+                  </p>
+                  <p>
+                    Even five minutes of stretching, breathing, or stepping
+                    away from a task can restore energy and perspective.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  Reach out for help
+                </button>
+              </h3>
+              <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+                <div class="accordion-body">
+                  <p>
+                    If challenges feel overwhelming, speaking to a
+                    professional can provide guidance and support. Therapists,
+                    doctors, or helplines can offer tools and reassurance
+                    tailored to your needs.
+                  </p>
+                  <p>
+                    Asking for help is a sign of strength, and support is
+                    always available.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Resources section (cards) -->
+    <section id="resources" class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Resources</h2>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <i class="fa-solid fa-hospital me-2" aria-hidden="true"></i>NHS Mental Health Services
+              </h5>
+              <p class="card-text">
+                The NHS provides professional mental health care, including
+                urgent help, talking therapies, and guidance on how to access
+                local services.
+              </p>
+              <a href="https://www.nhs.uk/nhs-services/mental-health-services/" target="_blank"
+                rel="noopener noreferrer" class="btn btn-outline-primary mt-auto"
+                aria-label="Open NHS Mental Health Services (opens in new tab)">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <i class="fa-solid fa-brain me-2" aria-hidden="true"></i>Mind
+              </h5>
+              <p class="card-text">
+                Mind is a leading UK charity offering clear information,
+                helplines, and local support for anyone experiencing mental
+                health problems.
+              </p>
+              <a href="https://www.mind.org.uk/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-primary mt-auto" aria-label="Open Mind (opens in new tab)">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <i class="fa-solid fa-phone me-2" aria-hidden="true"></i>Samaritans
+              </h5>
+              <p class="card-text">
+                Samaritans are available 24/7 to listen and provide
+                confidential support if you’re feeling overwhelmed or in
+                crisis. You can call them free on 116 123.
+              </p>
+              <a href="https://www.samaritans.org/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-primary mt-auto" aria-label="Open Samaritans (opens in new tab)">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <i class="fa-solid fa-users me-2" aria-hidden="true"></i>Rethink Mental Illness
+              </h5>
+              <p class="card-text">
+                Rethink offers advice, information, and support for people
+                severely affected by mental illness, as well as resources for
+                carers and families.
+              </p>
+              <a href="https://www.rethink.org/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-primary mt-auto"
+                aria-label="Open Rethink Mental Illness (opens in new tab)">Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact us section -->
+    <section id="contact" class="container section">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="text-center">Contact us</h2>
+          <form action="success.html#success">
+            <div class="row">
+              <div class="col-12 col-md-6 mb-3">
+                <label for="contactName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="contactName" name="name" required>
+              </div>
+              <div class="col-12 col-md-6 mb-3">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contactEmail" name="email" required>
+              </div>
+              <div class="col-12 mb-3">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="contactMessage" name="message" rows="3" required></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Affirmations section -->
+    <section id="affirmations" class="container section">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center">Daily Affirmations</h2>
+        </div>
+        <div class="col-12 col-lg-8 col-xl-7 col-xxl-6 text-center mx-auto py-5">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+            <div class="carousel-inner">
+              <div class="carousel-item display-6 active">
+                <p>I am worthy of love, care, and respect.</p>
+              </div>
+              <div class="carousel-item display-6">
+                <p>My feelings are valid, and I honor them.</p>
+              </div>
+              <div class="carousel-item display-6">
+                <p>I am stronger than I realize, and I grow every day.</p>
+              </div>
+              <div class="carousel-item">
+                <p>I deserve peace, joy, and balance in my life.</p>
+              </div>
+              <div class="carousel-item">
+                <p>I am enough, just as I am.</p>
+              </div>
+              <div class="carousel-item">
+                <p>Every step I take toward healing is a victory.</p>
+              </div>
+              <div class="carousel-item">
+                <p>I allow myself to rest and recharge without guilt.</p>
+              </div>
+              <div class="carousel-item">
+                <p>I am resilient, and challenges help me grow.</p>
+              </div>
+              <div class="carousel-item">
+                <p>I matter, and my presence makes a difference.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="mt-auto" aria-label="Footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 pt-3 py-sm-5 text-center text-sm-start justify-content-between">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+            class="text-decoration-none text-reset me-5" aria-label="Instagram">
+            <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+            class="text-decoration-none text-reset me-5" aria-label="Facebook">
+            <i class="fa-brands fa-facebook fa-2x" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
+            class="text-decoration-none text-reset" aria-label="Twitter">
+            <i class="fa-brands fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 py-3 py-sm-5 text-center text-sm-end">
+          <p class="mb-0">&copy; 2024 You Matter. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/4c4ec3a892.js" crossorigin="anonymous"></script>
+  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+  <script>
+    document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            let navbarHeight =
+              document.querySelector(".navbar-toggler").offsetHeight;
+            window.scroll({
+              top: section.offsetTop - navbarHeight, // Adjust for navbar height
+              behavior: "smooth",
+            });
+            document
+              .querySelector(".navbar-collapse")
+              .classList.remove("show"); // Collapse navbar
+          }
         });
-    </script>
-  </body>
+      });
+  </script>
+</body>
+
 </html>

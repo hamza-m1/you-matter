@@ -64,7 +64,7 @@ h2 {
   font-size: 1.2rem;
 }
 
-#navBtn {
+#navbar #navBtn {
   background-color: var(--light-color);
   color: black;
   border: none;
@@ -72,7 +72,7 @@ h2 {
   padding: 8px 12px;
 }
 
-#navBtn:hover {
+#navbar #navBtn:hover {
   background-color: var(--secondary-color);
   color: black;
   border: none;
