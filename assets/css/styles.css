@@ -41,7 +41,8 @@ h2 {
 #header .btn:hover,
 #resources .accordion-body button:hover,
 #contact .btn:hover,
-#resources .btn:hover {
+#resources .btn:hover,
+#success .btn:hover {
   background-color: var(--secondary-color);
   color: black;
 }
@@ -215,6 +216,14 @@ h2 {
 #footer {
   background-color: var(--primary-color);
   color: white;
+}
+
+/* success page */
+#success .btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
 }
 
 /* media queries for screens below 576px*/
