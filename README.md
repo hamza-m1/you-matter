@@ -2,6 +2,8 @@
 
 This is a mental health awareness site offering clear explanations of common conditions, quick practical tips, and links to trusted resources. The user base is newcomers to mental health topics, people feeling stressed, and users seeking reputable external help.
 
+## Design and Planning
+
 ** User stories **
 
 - As a site visitor, I want the website to be responsive and look good on all screen sizes (desktop, tablet, mobile) so that I can have a smooth and comfortable browsing experience.
@@ -22,3 +24,36 @@ This is a mental health awareness site offering clear explanations of common con
 ![mobile contact us wireframe](/assets/readme-images/mobile-contact-us-wireframe.png)
 ![desktop top wireframe](/assets/readme-images/desktop-wireframe1.png)
 ![desktop bottom wireframe](/assets/readme-images/desktop-wireframe2.png)
+
+** Typography **
+
+I used chewy from google fonts for headers and titles because it's playful, calming and bold.
+I used Quicksand from google fonts because its easy to read and complements Chewy.
+
+** colour Scheme **
+
+- #025951; Dark green
+- #a9d8ae; Medium green
+- #fffdec; Light yellow
+
+I decided to go with a leafy green colour scheme as it reflects nature, which is calming so would help the user feel calm and relaxed as they navigate through the site.
+
+## Features
+
+The site uses Bootstrap components and clean HTML/CSS to provide a calm, accessible experience. Key UI features include:
+
+- **Bootstrap Navbar:** Responsive top navigation with a clear brand link and collapsible menu for small screens.
+- **Bootstrap Cards:** Card components used for the Challenges and Resources sections to present concise, scannable content.
+- **Bootstrap Accordion:** Collapsible, accessible accordion used for the Practical Tips section so users can expand the tips they want to read.
+- **Bootstrap Form:** A simple contact form with labels and validation-ready inputs for users to get in touch.
+- **Bootstrap Carousel:** A small carousel for daily affirmations to provide gentle, rotating encouragement.
+- **Footer:** A persistent footer with contact and copyright information.
+
+## Technologies Used
+
+This project uses the following core technologies:
+
+- **HTML:** Semantic, accessible markup for page structure and content.
+- **CSS:** Custom styles and CSS variables for theming; responsive layout and calm visual design.
+- **Bootstrap:** Bootstrap 5 components and utilities (navbar, cards, accordion, form, carousel) for responsive, accessible UI.
+- **GitHub:** Git-based source control and repository hosting. Used for deployment via GitHub Pages.
