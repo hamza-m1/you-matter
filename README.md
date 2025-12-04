@@ -79,3 +79,31 @@ The challenges section on mobiles:
 ![Responsiveness test for the challenges section on mobiles](/assets/readme-images/responsivness-challenges-mobile.png)
 
 ### Code Validation
+
+Homepage HTML validation:
+
+![HTML validation for index.html](/assets/readme-images/index.html-validation.png)
+
+Contact form success page HTML validation:
+
+![HTML validation for the contact form success page](/assets/readme-images/success.html-validation.png)
+
+Styles CSS validation:
+
+![HTML validation for the Styles CSS file](/assets/readme-images/css-validation.png)
+
+### Colour Contrast
+
+Colour contrast between dark green background and white text:
+
+![Colour contrast between dark green background and white text](/assets/readme-images/colour-contrast1.png)
+
+Colour contrast between medium green background and black text
+
+![Colour contrast between medium green background and black text](/assets/readme-images/colour-contrast2.png)
+
+Colour contrast between light yellow background and black text
+
+![Colour contrast between light yellow background and black text](/assets/readme-images/colour-contrast3.png)
+
+### Manual Testing user stories
