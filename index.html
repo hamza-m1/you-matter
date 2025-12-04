@@ -26,6 +26,8 @@
       id="navbar"
       class="navbar navbar-expand-lg fixed-top"
       data-bs-theme="dark"
+      role="navigation"
+      aria-label="Main navigation"
     >
       <div class="container">
         <a class="navbar-brand" href="#header">You Matter</a>
@@ -64,7 +66,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact"
-                ><button id="navBtn">Contact us</button></a
+                ><button id="navBtn" aria-label="Open contact section">
+                  Contact us
+                </button></a
               >
             </li>
           </ul>
@@ -80,7 +84,11 @@
             <div>
               <h1 class="display-3">Let's talk. You matter</h1>
               <a href="#contact"
-                ><button type="button" class="btn btn-outline-primary btn-lg">
+                ><button
+                  type="button"
+                  class="btn btn-outline-primary btn-lg"
+                  aria-label="Open contact section"
+                >
                   contact us
                 </button></a
               >
@@ -558,7 +566,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn btn-outline-primary mt-auto"
-                  aria-label="NHS Mental Health Services"
+                  aria-label="Open NHS Mental Health Services (opens in new tab)"
                   >Visit</a
                 >
               </div>
@@ -580,7 +588,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn btn-outline-primary mt-auto"
-                  aria-label="Mind"
+                  aria-label="Open Mind (opens in new tab)"
                   >Visit</a
                 >
               </div>
@@ -603,7 +611,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn btn-outline-primary mt-auto"
-                  aria-label="Samaritans"
+                  aria-label="Open Samaritans (opens in new tab)"
                   >Visit</a
                 >
               </div>
@@ -626,7 +634,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn btn-outline-primary mt-auto"
-                  aria-label="Rethink Mental Illness"
+                  aria-label="Open Rethink Mental Illness (opens in new tab)"
                   >Visit</a
                 >
               </div>
@@ -693,6 +701,7 @@
               class="carousel slide"
               data-bs-ride="carousel"
               data-bs-theme="dark"
+              aria-label="Daily affirmations carousel"
             >
               <div class="carousel-inner">
                 <div class="carousel-item display-6 active">
@@ -730,7 +739,7 @@
     </main>
 
     <!-- Footer -->
-    <footer id="footer" class="mt-auto">
+    <footer id="footer" class="mt-auto" role="contentinfo" aria-label="Footer">
       <div class="container">
         <div class="row">
           <div
