@@ -179,6 +179,11 @@ h2 {
   box-shadow: 0 0 8px var(--secondary-color);
 }
 
+#contact input:hover,
+#contact textarea:hover {
+  background-color: var(--light-color);
+}
+
 #contact .btn {
   background-color: var(--primary-color);
   color: white;
