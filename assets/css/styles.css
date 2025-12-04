@@ -142,6 +142,10 @@ h2 {
   font-size: 1.2rem;
 }
 
+#tips .accordion-body {
+  background-color: var(--light-color);
+}
+
 #tips .accordion-button {
   background-color: var(--secondary-color);
 }
