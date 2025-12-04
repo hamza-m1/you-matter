@@ -110,6 +110,44 @@ Colour contrast between light yellow background and black text
 
 ### Manual Testing user stories
 
+- As a site visitor, I want the website to be responsive and look good on all screen sizes (desktop, tablet, mobile) so that I can have a smooth and comfortable browsing experience.
+
+![User story 1 test](/assets/readme-images/user-story-test1.png)
+
+- As a Site User, I want to navigate easily through the website so that I can find the information I need.
+
+![User story 2 test large screen](/assets/readme-images/user-story-test2-1.png)
+
+![User story 2 test small screen](/assets/readme-images/user-story-test2-2.png)
+
+- as a visitor, I want to see a calm, welcoming hero message on the homepage so that i can feel reassured and comfortable exploring the site.
+
+![User story 3 test](/assets/readme-images/user-story-test3.png)
+
+- As a newcomer to mental health topics, I want to find clear, beginner-friendly explanations of common issues/challenges so that i can understand what they are and how to spot them.
+
+![User story 4 test](/assets/readme-images/user-story-test4.png)
+
+- As a user feeling stressed or anxious, I want to access a short list of practical stress-management tips so that I can try implementing the tips to help lower my stress.
+
+![User story 5 test](/assets/readme-images/user-story-test5.png)
+
+- As a user wanting trusted help, I want a resource links section with clear labels and external links so that I can find professional support and further reading.
+
+![User story 6 test](/assets/readme-images/user-story-test6.png)
+
+- As a site visitor, I want to read an About Us section so that I can understand the purpose, values, and mission of the website and feel connected to the team behind it.
+
+![User story 7 test](/assets/readme-images/user-story-test7.png)
+
+- As a user who benefits from encouragement, I want a rotating set of positive affirmations or quotes so that I can feel uplifted and supported.
+
+![User story 8 test](/assets/readme-images/user-story-test8.png)
+
+- As a user seeking someone to talk to, I want a clear, private way to contact the site team (for example a contact form or email) so that I can ask questions or request support confidentially.
+
+![User story 9 test](/assets/readme-images/user-story-test9.png)
+
 ### Bugs
 
 **Card heights**
