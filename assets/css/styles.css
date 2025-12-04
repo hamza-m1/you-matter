@@ -5,7 +5,7 @@
 :root {
   --primary-color: #025951; /* Dark green */
   --secondary-color: #a9d8ae; /* Medium green */
-  --background-color: #fffdec; /* Light yellow */
+  --light-color: #fffdec; /* Light yellow */
   /* --background-color-rgba: rgba(255, 253, 236, 0.5); */
   --text-color: #333333;
   --primary-font: "Quicksand", sans-serif;
@@ -60,7 +60,7 @@ h2 {
 }
 
 #navBtn {
-  background-color: white;
+  background-color: var(--light-color);
   color: black;
   border: none;
   border-radius: 3px;
