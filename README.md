@@ -4,7 +4,7 @@ This is a mental health awareness site offering clear explanations of common con
 
 ## Design and Planning
 
-**User stories**
+### User stories
 
 - As a site visitor, I want the website to be responsive and look good on all screen sizes (desktop, tablet, mobile) so that I can have a smooth and comfortable browsing experience.
 - As a Site User, I want to navigate easily through the website so that I can find the information I need.
@@ -16,7 +16,7 @@ This is a mental health awareness site offering clear explanations of common con
 - As a user who benefits from encouragement, I want a rotating set of positive affirmations or quotes so that I can feel uplifted and supported.
 - As a user seeking someone to talk to, I want a clear, private way to contact the site team (for example a contact form or email) so that I can ask questions or request support confidentially.
 
-**Wireframes**
+### Wireframes
 
 ![mobile hero section wireframe](/assets/readme-images/mobile-hero-wireframe.png)
 ![mobile challenges section wireframe](/assets/readme-images/mobile-challenges-wireframe.png)
@@ -25,12 +25,12 @@ This is a mental health awareness site offering clear explanations of common con
 ![desktop top wireframe](/assets/readme-images/desktop-wireframe1.png)
 ![desktop bottom wireframe](/assets/readme-images/desktop-wireframe2.png)
 
-**Typography**
+### Typography
 
 I used chewy from google fonts for headers and titles because it's playful, calming and bold.
 I used Quicksand from google fonts because its easy to read and complements Chewy.
 
-**colour Scheme**
+### colour Scheme
 
 - #025951; Dark green
 - #a9d8ae; Medium green
@@ -57,3 +57,25 @@ This project uses the following core technologies:
 - **CSS:** Custom styles and CSS variables for theming; responsive layout and calm visual design.
 - **Bootstrap:** Bootstrap 5 components and utilities (navbar, cards, accordion, form, carousel) for responsive, accessible UI.
 - **GitHub:** Git-based source control and repository hosting. Used for deployment via GitHub Pages.
+
+## Testing
+
+### Google Lighthouse Performance
+
+![Google lighthouse performance score](/assets/readme-images/google-lighthouse-score.png)
+
+### Responsiveness
+
+The challenges section on desktops:
+
+![Responsiveness test for the challenges section on desktop](/assets/readme-images/responsivness-challenges-desktop.png)
+
+The challenges section on tablets:
+
+![Responsiveness test for the challenges section on tablets](/assets/readme-images/responsivness-challenges-tablet.png)
+
+The challenges section on mobiles:
+
+![Responsiveness test for the challenges section on mobiles](/assets/readme-images/responsivness-challenges-mobile.png)
+
+### Code Validation
