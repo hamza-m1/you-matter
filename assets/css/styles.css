@@ -171,6 +171,10 @@ h2 {
   padding: 5px 10px;
 }
 
+#resources h3 {
+  font-size: 1.3rem;
+}
+
 /* Contact us */
 #contact .form-control:focus {
   border-color: var(--secondary-color);
