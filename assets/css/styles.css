@@ -57,6 +57,11 @@ h2 {
 
 #navbar .navbar-brand {
   font-size: 1.8rem;
+  /* color: var(--light-color); */
+}
+
+#navbar .navbar-brand:hover {
+  font-weight: bold;
 }
 
 #navBtn {
@@ -136,9 +141,15 @@ h2 {
 #tips .accordion-item h3 button {
   font-size: 1.2rem;
 }
+
 #tips .accordion-button {
   background-color: var(--secondary-color);
 }
+
+#tips .accordion-button:hover {
+  font-size: 1.3rem;
+}
+
 #tips .accordion-button:not(.collapsed) {
   background-color: var(--primary-color);
   color: white;
@@ -148,6 +159,7 @@ h2 {
 #resources .card {
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--light-color);
 }
 
 #resources .btn {
@@ -159,8 +171,8 @@ h2 {
 
 /* Contact us */
 #contact .form-control:focus {
-  border-color: var(--primary-color);
-  box-shadow: 0 0 5px var(--primary-color);
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 8px var(--secondary-color);
 }
 
 #contact .btn {
@@ -172,7 +184,9 @@ h2 {
 
 /* affirmations */
 #affirmations .carousel {
-  background-color: var(--primary-color);
+  background-color: var(--light-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-inner {
@@ -182,7 +196,7 @@ h2 {
 .carousel-item {
   text-align: center;
   font-size: 1.5rem;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
