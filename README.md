@@ -2,6 +2,8 @@
 
 This is a mental health awareness site offering explanations of common conditions, quick practical tips, and links to trusted resources. The user base is newcomers to mental health topics, people feeling stressed, and users seeking reputable external help.
 
+live site: https://hamza-m1.github.io/you-matter/
+
 ## Design and Planning
 
 ### User stories
